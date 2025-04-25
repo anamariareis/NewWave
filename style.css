@@ -23,7 +23,7 @@ header{
     align-items: flex-start;
     gap: 2rem; /* Espaço entre imagem e texto */
     flex-wrap: wrap; /* Garante responsividade em telas menores */
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
