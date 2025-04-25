@@ -30,7 +30,7 @@ header{
 /* Controla o tamanho da imagem */
 .seção.new.wave img {
     width: 100%;
-    max-width: 400px; /* Tamanho máximo da imagem */
+    max-width: 300px; /* Tamanho máximo da imagem */
     height: auto;
     border-radius: 8px;
 }
