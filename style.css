@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --roxo-fundo: #2D1B4C;
+    --roxo-neon: #A259FF;
+    --rosa-neon: #FF4F87;
+    --azul-escuro: #1A1F71;
+    --laranja-claro: #FF862A;
+    --cinza-claro: #F1EDEF;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
+}
+
+header{
+    background-color: var(--roxo-fundo) ;
+}
