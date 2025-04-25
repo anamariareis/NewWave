@@ -16,3 +16,26 @@
 header{
     background-color: var(--roxo-fundo) ;
 }
+
+.seção.new.wave {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem; /* Espaço entre imagem e texto */
+    flex-wrap: wrap; /* Garante responsividade em telas menores */
+}
+
+/* Controla o tamanho da imagem */
+.seção.new.wave img {
+    width: 100%;
+    max-width: 300px; /* Tamanho máximo da imagem */
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilo do texto */
+.seção.new.wave .explicacao {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    max-width: 500px;
