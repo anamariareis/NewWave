@@ -65,3 +65,11 @@ header{
         font-size: 1rem;
         font-family: 'Montserrat';
     }
+
+    #contato {
+        background-image: url('img/imagem\ 7.jpg');
+        background-size: cover;
+        padding: 4rem 0;
+        /* Espaçamento interno para a seção de contato */
+    
+    }
