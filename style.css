@@ -83,3 +83,10 @@ header{
         /* Sombra suave para destacar o formulário */
         font-weight: bold;
     }
+
+    .menu-acessibilidade{
+        position: fixed;
+        top:2rem;
+        right:20px;
+        z-index: 1000;
+    }
