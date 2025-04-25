@@ -54,3 +54,9 @@ header{
     .botao-inicio:hover {
         transform: scale(1.05);
     }
+
+    #galeria img {
+        max-height: 300px;
+        object-fit: cover;
+        width: 100%;
+      }
