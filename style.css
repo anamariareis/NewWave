@@ -73,3 +73,14 @@ header{
         /* Espaçamento interno para a seção de contato */
     
     }
+
+    .formulario {
+        background-color: #ffffff;
+        padding: 2rem;
+        /* Espaçamento interno dentro do formulário */
+        border-radius: 10px;
+        /* Borda arredondada para o formulário */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        /* Sombra suave para destacar o formulário */
+        font-weight: bold;
+    }
