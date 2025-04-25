@@ -65,3 +65,8 @@ header{
         font-size: 1rem;
         font-family: 'Montserrat';
     }
+
+    section {
+        padding-bottom: 5rem;
+    }
+    
