@@ -21,21 +21,21 @@ header{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 2rem; /* Espaço entre imagem e texto */
-    flex-wrap: wrap; /* Garante responsividade em telas menores */
+    gap: 2rem; 
+    flex-wrap: wrap; 
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
-/* Controla o tamanho da imagem */
+
 .seção.new.wave img {
     width: 100%;
-    max-width: 400px; /* Tamanho máximo da imagem */
+    max-width: 400px; 
     height: auto;
     border-radius: 8px;
 }
 
-/* Estilo do texto */
+
 .seção.new.wave .explicacao {
     font-size: 1rem;
     line-height: 1.6;
@@ -70,17 +70,14 @@ header{
         background-image: url('img/imagem7.jpg');
         background-size: cover;
         padding: 4rem 0;
-        /* Espaçamento interno para a seção de contato */
+
     
     }
     .formulario {
         background-color: #ffffff;
         padding: 1rem;
-        /* Espaçamento interno dentro do formulário */
         border-radius: 10px;
-        /* Borda arredondada para o formulário */
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        /* Sombra suave para destacar o formulário */
         font-weight: bold;
     }
 
