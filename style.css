@@ -151,20 +151,24 @@ header{
   
   /* Itens como botões */
   .navegação-item .nav-link {
-    background-color: var(--rosa-neon); /* Ou use: #ffffff */
-  color: black; /* Agora o texto aparece */
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1rem;
-  transition: background-color 0.3s, transform 0.2s;
-  display: inline-block;
+    navegação-item .nav-link {
+        background-color: var(--roxo-neon);
+        color: white;
+        border: 2px solid var(--rosa-neon);
+        box-shadow: 0 0 8px var(--rosa-neon);
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 1rem;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
   }
   
   /* Efeito hover */
   .navegação-item .nav-link:hover {
-    background-color: #0b5ed7;
-    transform: scale(1.05);
+    background-color: var(--rosa-neon);
+  color: #000;
+  box-shadow: 0 0 12px var(--roxo-neon);
+  transform: scale(1.05);
   }
     
