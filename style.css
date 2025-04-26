@@ -144,20 +144,27 @@ header{
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    padding: 1rem 0;
-    background-color: #2D1B4C;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
   }
   
-  .navegação-item a {
+  /* Itens como botões */
+  .navegação-item .nav-link {
+    background-color: #ffffff; /* Cor de fundo do botão */
+    color: white;              /* Cor do texto */
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
     text-decoration: none;
-    color: white;
     font-weight: bold;
-    transition: 0.3s;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
   }
   
-  .navegação-item a:hover {
-    color: #F1EDEF;
+  /* Efeito hover */
+  .navegação-item .nav-link:hover {
+    background-color: #0b5ed7;
+    transform: scale(1.05);
   }
-
     
