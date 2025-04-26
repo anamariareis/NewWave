@@ -141,4 +141,10 @@ header{
     background: none;
 }
 
+.inicio-fundo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;  /* Ajuste o espaço entre a imagem e o texto */
+  }
     
