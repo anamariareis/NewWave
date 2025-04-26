@@ -118,6 +118,16 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
     <script src="script.js"></script>
+
+    <div class="menu-acessibilidade">
+      <button class="rotacao-botao btn btn-dark" onclick="document.querySelector('.opcoes-acessibilidade').classList.toggle('apresenta-lista')">
+        ♿
+      </button>
+      <div class="opcoes-acessibilidade apresenta-lista">
+        <button onclick="document.body.classList.toggle('alto-contraste')" class="btn btn-warning">Alto Contraste</button>
+        <!-- Adicione mais botões se tiver outras funções -->
+      </div>
+    </div>
   
   
 </body>
