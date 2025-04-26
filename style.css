@@ -140,35 +140,4 @@ header{
     background: none;
 }
 
-.navegação {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Itens como botões */
-  .navegação-item .nav-link {
-    navegação-item .nav-link {
-        background-color: var(--roxo-neon);
-        color: white;
-        border: 2px solid var(--rosa-neon);
-        box-shadow: 0 0 8px var(--rosa-neon);
-        padding: 0.5rem 1rem;
-        border-radius: 10px;
-        font-weight: bold;
-        font-size: 1rem;
-        text-decoration: none;
-        transition: all 0.3s ease-in-out;
-  }
-  
-  /* Efeito hover */
-  .navegação-item .nav-link:hover {
-    background-color: var(--rosa-neon);
-  color: #000;
-  box-shadow: 0 0 12px var(--roxo-neon);
-  transform: scale(1.05);
-  }
     
