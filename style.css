@@ -179,7 +179,7 @@ header{
 
 .inicio-fundo p {
     font-size: 1.2rem; /* Ajuste no tamanho do texto */
-    color: #fff; /* Cor do texto */
+    color: #000000; /* Cor do texto */
     max-width: 500px; /* Limita a largura do texto */
 }
     
