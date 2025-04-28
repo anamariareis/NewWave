@@ -44,8 +44,11 @@ header{
     max-width: 500px;}
 
     .img-inicio {
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        max-width: 400px; /* Mantém a imagem com largura máxima de 400px */
+    width: 100%; /* A imagem ocupará 100% da largura disponível até o limite de max-width */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas na imagem */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para a imagem */
     }
     
     .botao-inicio {
@@ -142,10 +145,10 @@ header{
 }
 
 .inicio-fundo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
+    display: flex; /* Flexbox para alinhar imagem e texto lado a lado */
+    justify-content: space-between; /* Espaço entre a imagem e o texto */
+    align-items: center; /* Alinhar verticalmente ao centro */
+    gap: 2rem; /* Espaçamento entre os elementos */
   }
 
   .navbar-nav {
@@ -168,4 +171,15 @@ header{
     background-color: var(--roxo-neon); /* Altere para a cor desejada ao passar o mouse */
     color: #fff;
   }
+
+  .esquerda-conteudo {
+    flex: 1; /* Faz o texto ocupar o restante do espaço */
+    text-align: left; /* Garante que o texto não fique centralizado */
+}
+
+.inicio-fundo p {
+    font-size: 1.2rem; /* Ajuste no tamanho do texto */
+    color: #fff; /* Cor do texto */
+    max-width: 500px; /* Limita a largura do texto */
+}
     
