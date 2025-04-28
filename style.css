@@ -173,8 +173,9 @@ header{
   }
 
   .esquerda-conteudo {
-    flex: 1; 
-    text-align: left; 
+    flex: 1;
+    text-align: left;
+    padding-top: 20px; 
 }
 
 .inicio-fundo p {
