@@ -147,4 +147,25 @@ header{
     align-items: center;
     gap: 2rem;
   }
+
+  .navbar-nav {
+    display: flex; /* Garante que a navegação seja exibida corretamente em linha */
+    gap: 15px;     /* Garante que haja espaçamento entre os itens */
+  }
+  
+  .navbar-nav .nav-item {
+    list-style: none; /* Remove os pontos de lista padrão */
+  }
+  
+  .navbar-nav .nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: var(--roxo-neon); /* Altere para a cor desejada ao passar o mouse */
+    color: #fff;
+  }
     
