@@ -95,9 +95,9 @@ header{
     }
     
     .opcoes-acessibilidade{
-        margin-top:10px;
-        display: flex;
-        flex-direction: column;
+        display: none;
+        margin-top: 10px;
+        flex-direction: column
     }
     
     .opcoes-acessibilidade button{
