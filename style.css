@@ -95,16 +95,16 @@ header{
     }
     
     .opcoes-acessibilidade{
-        display: none;
-        margin-top: 10px;
-        flex-direction: column
+        margin-top:10px;
+        display: flex;
+        flex-direction: column;
     }
     
     .opcoes-acessibilidade button{
         margin-bottom: 5px;
     }
     .apresenta-lista{
-        display: flex;
+        display: none;
     }
     
     .alto-contraste{
